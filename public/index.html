@@ -21,20 +21,20 @@
             console.log('perdimos comunicacion con el servidor');
         });
 
-        socket.emit('mensaje', { nombre: 'Juan' });
-        socket.on('mensaje', function (data) {
-            console.log(data);
-        });
+        // socket.emit('mensaje', { nombre: 'Juan' });
+        // socket.on('mensaje', function (data) {
+        //     console.log(data);
+        // });
 
-        socket.on('nuevo-mensaje', function (data) {
-            console.log(data);
-        });
+        // socket.on('nuevo-mensaje', function (data) {
+        //     console.log(data);
+        // });
 
-        socket.on('active-bands', function (data) {
-            console.clear();
-            console.table(data);
+        // socket.on('active-bands', function (data) {
+        //     console.clear();
+        //     console.table(data);
             
-        });
+        // });
     </script>
 </body>
 
